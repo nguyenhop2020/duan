@@ -1,0 +1,537 @@
+@media only screen and (max-width: 1025px) {
+
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    .headmain__logo {
+        margin-left: 0px;
+    }
+
+    .headmain__logo img {
+        margin-left: 8px;
+    }
+
+    .slide__info strong {
+        font-size: 48px;
+    }    
+
+    .category__group__item img, 
+    .category__left img,
+    .product__img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .product,
+    .product__item {
+        margin: 0px;
+    }
+
+    .product {
+        justify-content: space-evenly;
+    }
+
+    .product__item {
+        width: 23%;
+    }
+
+    .category__top {
+        padding: 0px 30px;
+    }
+    /* Reponsive slae */
+    .product__sale__item {
+        padding-left: 20px;
+        transform: translateX(12%);
+    }
+
+    .product__hour {
+        justify-content: normal;
+        margin-left: -15px;
+    }
+
+    .product__sale__main {
+        right: 17px;
+    }
+
+    .product__hour li {
+        padding: 15px;
+        margin-left: 10px;
+    }
+
+    
+    /* Reponsive Video */
+    .video {
+        background-size: cover;
+    }
+
+    .video__main {
+        padding-left: 14px;
+    }
+
+    .deal__group {
+        font-size: 2.4rem;
+    }
+
+    .title__group,
+    #product__sale__title {
+        font-size: 4rem;
+    }
+
+    #video__description {
+        font-size: 1.7rem;
+    }
+
+    .title__group {
+        padding: 20px 0px;
+    }
+
+    .order {
+        padding: 0;
+    }
+
+    .title__box {
+        margin-top: 58px;
+    }
+
+    .blog {
+        margin: 0;
+    }
+
+    .footer__item {
+        margin: 0px 20px;
+    }
+
+    /* Danh muc san pham */
+    .breadcrumb {
+        padding: 40px 10px;
+    }
+
+    .quantity {
+        padding: 40px 10px;
+    }
+
+    /* San  pham chi tiet */
+    .detail {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 739px) {
+    .headsub__left ul.box__layout li:first-child {
+        display: none;
+    }
+
+    ul.box__layout li i {
+        font-size: 1.1rem;
+    }
+
+    .headsub ul li a {
+        font-size: 1.3rem;
+    }
+
+    #menu__mobile {
+        display: block;
+    }
+
+    .headmain__nav {
+        display: none;
+    }
+
+    .headmain {
+        display: flex;
+    }  
+
+    .mobile {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 9px;
+        font-size: 2rem;
+    }
+
+    #menu__mobile {
+        padding: 10px;
+    }
+
+
+
+    .list__menu__mobile {
+        display: block;
+    }
+
+    .list__menu__mobile {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: #545854;
+        z-index: 1;
+        transform: translateX(-100%);
+    }
+
+    span#close__menu__mobile {
+        position: absolute;
+        right: 0;
+        padding: 20px;
+        color: white;
+        font-size: 2rem;
+    }
+
+    ul.nav__menu__mobile li {
+        padding: 20px 0px;
+        border-bottom: 1px dotted white;
+    }
+
+    ul.nav__menu__mobile li a {
+        color: white;
+        padding: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.4rem;
+    }
+
+    
+    /* Slide */
+    .slide__info {
+        padding: 44px;
+    }
+
+    .slide__info strong {
+        font-size: 24px;
+    }
+
+    #prev__slide, #next__slide {
+        padding: 12px;
+    }
+
+    .slide__info button a {
+        padding: 12px;
+    }
+
+    /* Reponsive chính sách */
+
+    .policy {
+        padding: 10px 0px;
+    }
+
+    .policy__layout {
+        flex-wrap: wrap;
+    }
+
+    .policy__item__mobile {
+        width: 50%;
+    }
+
+    .policy__text--title {
+        font-size: 1.6rem;
+    }
+
+    .policy__text--description {
+        font-size: 1.4rem;
+    }
+
+    .policy__img i {
+        font-size: 3rem;
+    }
+
+    .policy__item {
+        padding: 16px 12px;
+    }
+    /* Reponsive category */
+    .category__top {
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 0;
+    }
+    .category__group{
+        margin: 0;
+    }
+
+    .category__left, .category__group,
+    .category__group__item {
+        width: 100%;
+    }
+
+    .category__group__item {
+        width: 100%;
+        margin: 10px 0 0 0;
+        padding-left: 0;
+    }
+
+    .newproduct__nav {
+        flex-wrap: wrap;
+    }
+
+    .newproduct__nav--item {
+        width: 100%;
+        border-bottom: 1px solid #c33;
+    }
+
+    li.newproduct__nav--item i {
+        display: none;
+    }
+
+    /* CSS Product */
+    .product {
+        margin: 0px;
+    }
+
+    .product__item {
+        width: 100%;
+        margin: 0;
+        height: 460px;
+    }
+
+    .product__img {
+        height: 360px;
+    }
+
+    .product__img img {
+        width: 100%;
+    }
+
+    /* Reponsive video */
+
+    .video__main {
+        padding: 20px;
+    }
+
+    .title__group {
+        font-size: 4rem;
+    }
+
+    /* Salse */
+
+    .product__sale.general__box {
+        height: 850px;
+    }
+
+    .container__main.product__sale__layout {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .product__sale__item.general__box__center {
+        position: unset;
+        transform: translateX(68px);
+        margin-bottom: 34px;
+    }
+
+    .general__box__center.product__sale__main {
+        width: 100%;
+        position: unset;
+        transform: unset;
+        padding: 0px 10px;
+    }
+
+    #product__sale__title {
+        font-size: 4rem;
+    }
+
+    .product__hour {
+        width: auto;
+        justify-content: space-evenly;
+        margin-left: 0px;
+    }
+
+    .product__hour li {
+        padding: 15px;
+    }
+
+    .blog {
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+    .blog__item {
+        width: 100%;
+        margin: 0 10px 40px 10px;
+    }
+
+    .resign__email {
+        background-size: cover;
+        margin: 0;
+        padding: 24px;
+        height: 200px;
+    }
+
+    .resign__email__content {
+        width: auto;
+        margin: 20px 0 0;
+    }
+
+    .footer__main {
+        flex-wrap: wrap;
+        padding: 0px 10px;
+        margin: 0;
+    }
+
+    .footer__item {
+        width: 100%;
+    }
+
+    /* Danh muc san pham */
+    .breadcrumb__main {
+        flex-wrap: wrap;
+        padding: 0px 20px;
+    }
+
+    .breadcrumb {
+        padding: 20px 0px;
+    }
+
+    .breadcrumb h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .breadcrumb__nav ul li:first-child a:before {
+        padding: 0px;
+    }
+
+    .quantity {
+        padding: 20px;
+    }
+
+    .pagination__main {
+        margin-bottom: 20px;
+    }
+
+    /* San pham chi tiết */
+    .detail__main {
+        flex-direction: column;
+    }
+
+    .detail {
+        padding-top: 10px;
+    }
+
+    .detail__mobile {
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .image__main {
+        height: auto;
+    }
+
+    .slide__image {
+        height: 80px;
+    }
+
+    .icon__smal {
+        padding: 4px;
+    }
+
+    .cart__main {
+        flex-direction: column;
+    }
+
+    .cart__mobile {
+        width: 100%;
+    }
+
+    .cart__num {
+        width: 145px;
+    }
+
+    .cart__main select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background: white;
+        border-radius: 3px;
+    }
+
+    .detail__product {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .tab__content {
+        padding: 0px 10px;
+    }
+
+    .line {
+        margin: 0px;
+    }
+
+    /* San pham chi tiet */
+    .lists {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .lists__item, .list__sidebar {
+        width: 100%;
+    }
+
+    .item__detail {
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .item__detail h2 {
+        padding: 10px 0px 20px;
+    }
+
+    .list__sidebar {
+        padding: 0px 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    .headmain__convenient {
+        z-index: 3;
+    }
+
+    .list__menu__mobile {
+        z-index: 4;
+    }
+
+    .headmain__logo {
+        width: 100px;
+        transform: translateY(10%);
+        margin-left: 0px;
+
+    }
+
+    .headmain__logo img {
+        width: 100%;
+    }
+    
+    .product {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .title__box {
+        font-size: 2.8rem;
+    }
+
+    .product__sale__item.general__box__center {
+        transform: translateX(36px);
+    }
+    .resign__email form {
+        margin-left: -8px;
+    }
+
+    .input__submit, .input__email {
+        padding: 10px 8px;
+    }
+
+    .resign__email__content h6 {
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        padding: 20px 0px;
+    }
+
+    .footer__item {
+        margin: 10px;
+    }
+
+}
